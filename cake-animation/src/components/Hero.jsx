@@ -112,10 +112,11 @@ const Hero = () => {
         </>
       )}
 
-      <section className="cake-scene" aria-label="Birthday cake with number 23 candles">
+      <section className="cake-scene" aria-label="Birthday cake with 3 candles">
         <div className="candles">
-          <Candle number="2" delay="3.3s" isLit={candlesLit} isBlown={celebrating} />
-          <Candle number="3" delay="3.55s" isLit={candlesLit} isBlown={celebrating} />
+          <Candle number="" delay="3.1s" isLit={candlesLit} isBlown={celebrating} />
+          <Candle number="" delay="3.3s" isLit={candlesLit} isBlown={celebrating} />
+          <Candle number="" delay="3.55s" isLit={candlesLit} isBlown={celebrating} />
         </div>
 
         <div className={`cake-body${cakeCut ? ' is-cut' : ''}`}>
